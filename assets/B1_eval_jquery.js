@@ -15,6 +15,7 @@ function exercice1() {
     });
 }
 
+
 function exercice2() {
 
 }
@@ -63,5 +64,6 @@ $(function () {
     exercice3()
     exercice5()
     exercice6()
+    exercice7()
     jumbotron()
 })  
