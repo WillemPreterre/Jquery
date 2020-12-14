@@ -28,6 +28,22 @@ function exercice3() {
     })
 }
 
+function exercice5() {
+    if ($('.redsquare-controls').hasClass('is-active'));
+    $('#shapeCircle').click(function (e) { 
+        e.preventDefault();
+        $('.square').css('border-radius', '25px')
+    })
+}
+
+function exercice6() {
+    if ($('.redsquare-controls').hasClass('is-active'));
+    $('#shapeSquare').click(function (e) { 
+        e.preventDefault();
+        $('.square').css('border-radius', 'none')
+    })
+
+}
 function jumbotron() {
 
     $('.jumbotron a').click(function(event){
@@ -36,6 +52,8 @@ function jumbotron() {
 
     $('.jumbotron ul').addClass('list-group');
     $('.jumbotron il').addClass('list-group-item');
+
+
 }
 
 $(function () {
@@ -43,5 +61,7 @@ $(function () {
     exercice1()
     exercice2()
     exercice3()
+    exercice5()
+    exercice6()
     jumbotron()
 })  
